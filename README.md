@@ -1,3 +1,20 @@
-# PyTorch implementation of block non-local operation in paper "Non-Local ConvLSTM for Video Compression Artifact Reduction"
+# NL-ConvLSTM
+Non-Local ConvLSTM for Video Compression Artifact Reduction(ICCV2019)
 
-It just appears to me that the authors never upload the core code of the proposed block non-local operation and I happened to implement this part of code in PyTorch quite long time ago. I think it's time to share with others. I respect the authors that proposed such good idea so I'm gonna send the PR to the original repo. I guess this is the correct implementation.
+
+Thanks for @[Yan-Cheng Huang](https://github.com/ding3820)'s contribution. 
+The codes of non-local operation in LSTM are implemented in ``non_local_block.py``
+
+
+
+## Citation
+If you find this project is useful for your research, please cite:
+```
+@inproceedings{xu2019non,
+  title={Non-Local ConvLSTM for Video Compression Artifact Reduction},
+  author={Xu, Yi and Gao, Longwen and Tian, Kai and Zhou, Shuigeng and Sun, Huyang},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={7043--7052},
+  year={2019}
+}
+```
